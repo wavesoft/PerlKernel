@@ -1,0 +1,7 @@
+*.o
+*.bin
+
+toolchain/local
+toolchain/src
+
+kernel/kmod/perl/perl-*
