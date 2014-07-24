@@ -10,7 +10,15 @@ BINDIR=$(TOP)/toolchain/local/bin/$(TARGET)
 AS_BIN=$(BINDIR)-as
 AS_FLAGS=
 CC_BIN=$(BINDIR)-gcc
-CC_FLAGS=-I$(TOP)/kernel/src
+CC_FLAGS=\
+	-I$(TOP)/kernel/include \
+	-I$(TOP)/kernel/include/core \
+	-DNO_MALLOC_STATS \
+	-DLACKS_TIME_H \
+	-DLACKS_SYS_MMAN_H \
+	-DLACKS_FCNTL_H \
+	-DLACKS_UNISTD_H \
+	-DLACKS_SYS_PARAM_H
 
 all: ../kernel.bin
 

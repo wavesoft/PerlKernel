@@ -4053,7 +4053,7 @@ static void* sys_alloc(mstate m, size_t nb) {
       return 0;
   }
 
-  /*
+  /* 
     Try getting memory in any of three ways (in most-preferred to
     least-preferred order):
     1. A call to MORECORE that can normally contiguously extend memory.

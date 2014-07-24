@@ -17,14 +17,7 @@
  * Developed by Ioannis Charalampidis 2014
  */
 
-#ifndef _TYPES_H_
-#define _TYPES_H_
+#ifndef _TTY_H_
+#define _TTY_H_
 
-typedef unsigned char   u_char;
-typedef unsigned short  u_short;
-typedef unsigned int    u_int;
-typedef unsigned long   u_long;
-typedef unsigned short  ushort;         /* Sys V compatibility */
-typedef unsigned int    uint;           /* Sys V compatibility */
-
-#endif /* _TYPES_H_ */
+#endif /* _TTY_H_ */

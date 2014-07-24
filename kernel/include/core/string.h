@@ -16,3 +16,10 @@
  *
  * Developed by Ioannis Charalampidis 2014
  */
+
+#ifndef _STRING_H_
+#define _STRING_H_
+
+void *memcpy(void *__restrict dst, const void *__restrict src, size_t count);
+
+#endif /* _STRING_H_ */
